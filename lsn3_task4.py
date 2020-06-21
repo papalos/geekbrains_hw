@@ -42,10 +42,12 @@ def my_func(x, y):
     if type(y) != int or y > -1:
         return 'Второй аргумент функции не является отрицательным числом'
 
-    for _ in range(1, (-y - 1)):
-        x *= x
+    k = x
+    for _ in range((-y - 1)):
+        k *= x
+        print(k)
 
-    return 1 / x
+    return 1 / k
 
 
 print(my_func(i, j))
