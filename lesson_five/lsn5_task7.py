@@ -33,3 +33,4 @@ print(ls)
 
 with open("json.json", "w", encoding='utf-8') as f_json:
     json.dump(ls, f_json, ensure_ascii=False, indent=2)
+
